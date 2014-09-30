@@ -1,0 +1,9 @@
+[Unit]
+Description=MT7630E
+
+[Service]
+ExecStart=/usr/local/MT7630E/load.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
